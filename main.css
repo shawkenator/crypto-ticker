@@ -1,0 +1,89 @@
+body {
+    background: #f5f5f5;
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+}
+.fa-coins {
+    margin-right: 4px;
+}
+.logo {
+    height: 50px;
+}
+.coin {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 1px solid #bebebe;
+    margin: 10px 14px;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 12px 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(21, 63, 108, .3);
+    background-color: #fff;
+}
+#coinList {
+    display: flex;
+    flex-wrap: wrap;
+}
+.paginate-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#prevButton, #nextButton {
+    padding: 0 20px;
+    text-decoration: none;
+}
+.fas {
+    margin: 0 4px;
+}
+.sort-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E88E5;
+    color: #fff;
+}
+h3 {
+    font-size: 13px;
+    padding-right: 10px;
+    font-style: italic;
+}
+.footer {
+    float: right;
+    padding-right: 20px;
+}
+.change, .price {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: bold;
+}
+label {
+    font-size: 10px;
+    font-weight: normal;
+}
+.index {
+    font-size: 11px;
+    color: #A0A0A0;
+}
+button {
+    margin-right: 8px;
+}
+button:active {
+    background-color: #1E88E5;
+}
+a {
+    color: #1E88E5;
+}
+.reset {
+    cursor: pointer;
+    margin-left: 0px;
+    padding-left: 0px;
+}
