@@ -125,7 +125,7 @@ function changePage(page) {
         if(i >= coindata.length) {
             return
         }
-        coin_table.innerHTML += "<div class='coin'><span class='index'> #" + ([i+1]) + "</span><span>" + coindata[i].name + "</span>" + "<img src='" + coindata[i].image + "' class='logo'><span class='price'><label>Current Price:</label> $" + coindata[i].current_price + "</span><span class='change'><label>% 24h Change:</label>" + coindata[i].price_change_percentage_24h + "</span></div>";
+        coin_table.innerHTML += "<div class='coin'><span class='index'> #" + ([i+1]) + "</span><span>" + coindata[i].name + "</span>" + "<img src='" + coindata[i].image + "' class='logo'><span class='price'><label>Current Price:</label> $" + coindata[i].current_price + "</span><span class='change'><label>% 24h Change:</label>" + coindata[i].price_change_percentage_24h + "%</span></div>";
     }
 
     if (page == 1) {
